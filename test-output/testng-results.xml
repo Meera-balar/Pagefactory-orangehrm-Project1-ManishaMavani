@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter username Admin to username field [[ChromeDriver: chrome on WINDOWS (f7259d25dc4733c62841c1df6f5270ec)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter password admin123 to password field [[ChromeDriver: chrome on WINDOWS (f7259d25dc4733c62841c1df6f5270ec)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Button [[ChromeDriver: chrome on WINDOWS (f7259d25dc4733c62841c1df6f5270ec)] -> xpath: //button[text()=' Login ']]]]>
+    </line>
+    <line>
+      <![CDATA[Verify Dashboard text is displayed[[ChromeDriver: chrome on WINDOWS (f7259d25dc4733c62841c1df6f5270ec)] -> xpath: //h6[text()='Dashboard']]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsSun_Dec_11_18_32_20_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsSun_Dec_11_18_32_20_GMT_2022.jpg><img src=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsSun_Dec_11_18_32_20_GMT_2022.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Forgot Password Link [[ChromeDriver: chrome on WINDOWS (d4ed3d60bb0c5a357150deff74615525)] -> xpath: //p[text()='Forgot your password? ']]]]>
+    </line>
+    <line>
+      <![CDATA[Verify Reset Password text is displayed [[ChromeDriver: chrome on WINDOWS (d4ed3d60bb0c5a357150deff74615525)] -> xpath: //h6[text()='Reset Password']]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullySun_Dec_11_18_32_27_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullySun_Dec_11_18_32_27_GMT_2022.jpg><img src=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullySun_Dec_11_18_32_27_GMT_2022.jpg height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression suite" duration-ms="18895" started-at="2022-12-11T18:32:09 GMT" finished-at="2022-12-11T18:32:28 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@710726a3]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.orangehrmlive.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@710726a3]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.orangehrmlive.demo.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@710726a3]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.orangehrmlive.demo.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@710726a3]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.orangehrmlive.demo.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Regression Test" duration-ms="18895" started-at="2022-12-11T18:32:09 GMT" finished-at="2022-12-11T18:32:28 GMT">
+      <class name="com.orangehrmlive.demo.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@710726a3]" name="setUp" is-config="true" duration-ms="6653" started-at="2022-12-11T18:32:10 GMT" finished-at="2022-12-11T18:32:17 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@710726a3]" name="inIt" is-config="true" duration-ms="48" started-at="2022-12-11T18:32:17 GMT" finished-at="2022-12-11T18:32:17 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@710726a3]" name="userShouldLoginSuccessfullyWithValidCredentials" duration-ms="2394" started-at="2022-12-11T18:32:17 GMT" finished-at="2022-12-11T18:32:19 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter username Admin to username field [[ChromeDriver: chrome on WINDOWS (f7259d25dc4733c62841c1df6f5270ec)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter password admin123 to password field [[ChromeDriver: chrome on WINDOWS (f7259d25dc4733c62841c1df6f5270ec)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login Button [[ChromeDriver: chrome on WINDOWS (f7259d25dc4733c62841c1df6f5270ec)] -> xpath: //button[text()=' Login ']]]]>
+            </line>
+            <line>
+              <![CDATA[Verify Dashboard text is displayed[[ChromeDriver: chrome on WINDOWS (f7259d25dc4733c62841c1df6f5270ec)] -> xpath: //h6[text()='Dashboard']]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsSun_Dec_11_18_32_20_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsSun_Dec_11_18_32_20_GMT_2022.jpg><img src=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsSun_Dec_11_18_32_20_GMT_2022.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@710726a3]" name="tearDown" is-config="true" duration-ms="1473" started-at="2022-12-11T18:32:20 GMT" finished-at="2022-12-11T18:32:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@710726a3]" name="setUp" is-config="true" duration-ms="3835" started-at="2022-12-11T18:32:22 GMT" finished-at="2022-12-11T18:32:26 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@710726a3]" name="inIt" is-config="true" duration-ms="3" started-at="2022-12-11T18:32:26 GMT" finished-at="2022-12-11T18:32:26 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@710726a3]" name="userShouldNavigateToForgotPasswordPageSuccessfully" duration-ms="1142" started-at="2022-12-11T18:32:26 GMT" finished-at="2022-12-11T18:32:27 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Forgot Password Link [[ChromeDriver: chrome on WINDOWS (d4ed3d60bb0c5a357150deff74615525)] -> xpath: //p[text()='Forgot your password? ']]]]>
+            </line>
+            <line>
+              <![CDATA[Verify Reset Password text is displayed [[ChromeDriver: chrome on WINDOWS (d4ed3d60bb0c5a357150deff74615525)] -> xpath: //h6[text()='Reset Password']]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullySun_Dec_11_18_32_27_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullySun_Dec_11_18_32_27_GMT_2022.jpg><img src=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullySun_Dec_11_18_32_27_GMT_2022.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToForgotPasswordPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmlive.demo.testsuite.LoginPageTest@710726a3]" name="tearDown" is-config="true" duration-ms="1052" started-at="2022-12-11T18:32:27 GMT" finished-at="2022-12-11T18:32:28 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrmlive.demo.testsuite.LoginPageTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression suite -->
+</testng-results>

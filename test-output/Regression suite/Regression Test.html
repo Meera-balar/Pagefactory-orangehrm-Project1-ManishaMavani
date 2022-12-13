@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>TestNG:  Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 11 18:32:09 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>18 seconds (18895 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.orangehrmlive.demo.testsuite.LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()'><b>userShouldLoginSuccessfullyWithValidCredentials</b><br>Test class: com.orangehrmlive.demo.testsuite.LoginPageTest<br/>
+<a href="#Output-497479191" onClick='toggleBox("Output-497479191", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-497479191" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-497479191">
+Enter username Admin to username field [[ChromeDriver: chrome on WINDOWS (f7259d25dc4733c62841c1df6f5270ec)] -> name: username]<br/>
+Enter password admin123 to password field [[ChromeDriver: chrome on WINDOWS (f7259d25dc4733c62841c1df6f5270ec)] -> name: password]<br/>
+Clicking on Login Button [[ChromeDriver: chrome on WINDOWS (f7259d25dc4733c62841c1df6f5270ec)] -> xpath: //button[text()=' Login ']]<br/>
+Verify Dashboard text is displayed[[ChromeDriver: chrome on WINDOWS (f7259d25dc4733c62841c1df6f5270ec)] -> xpath: //h6[text()='Dashboard']]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsSun_Dec_11_18_32_20_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsSun_Dec_11_18_32_20_GMT_2022.jpg><img src=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsSun_Dec_11_18_32_20_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.orangehrmlive.demo.testsuite.LoginPageTest@710726a3</td></tr>
+<tr>
+<td title='com.orangehrmlive.demo.testsuite.LoginPageTest.userShouldNavigateToForgotPasswordPageSuccessfully()'><b>userShouldNavigateToForgotPasswordPageSuccessfully</b><br>Test class: com.orangehrmlive.demo.testsuite.LoginPageTest<br/>
+<a href="#Output-13643661" onClick='toggleBox("Output-13643661", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-13643661" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-13643661">
+Clicking on Forgot Password Link [[ChromeDriver: chrome on WINDOWS (d4ed3d60bb0c5a357150deff74615525)] -> xpath: //p[text()='Forgot your password? ']]<br/>
+Verify Reset Password text is displayed [[ChromeDriver: chrome on WINDOWS (d4ed3d60bb0c5a357150deff74615525)] -> xpath: //h6[text()='Reset Password']]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullySun_Dec_11_18_32_27_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullySun_Dec_11_18_32_27_GMT_2022.jpg><img src=C:\Users\balar\IdeaProjects\orangehrm-Pagefactory-Project1-ManishaMavani/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullySun_Dec_11_18_32_27_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.orangehrmlive.demo.testsuite.LoginPageTest@710726a3</td></tr>
+</table><p>
+</body>
+</html>
